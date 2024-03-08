@@ -5,15 +5,15 @@ using UnityEngine.InputSystem;
 
 public class SlingShot : MonoBehaviour
 {
-    private LineRenderer leftLineRenderer;
-    private LineRenderer rightLineRenderer;
+    [SerializeField] private LineRenderer leftLineRenderer;
+    [SerializeField] private LineRenderer rightLineRenderer;
 
-    private Transform leftStartPosition;
-    private Transform rightStartPosition;
+    [SerializeField] private Transform leftStartPosition;
+    [SerializeField] private Transform rightStartPosition;
 
     private void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        if (Mouse.current.leftButton.isPressed)
         {
             DrawSlingShot();
         }
