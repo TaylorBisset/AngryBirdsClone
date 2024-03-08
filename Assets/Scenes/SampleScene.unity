@@ -666,6 +666,9 @@ MonoBehaviour:
   rightLineRenderer: {fileID: 112351751}
   leftStartPosition: {fileID: 906452738}
   rightStartPosition: {fileID: 91193274}
+  centerPosition: {fileID: 94759266}
+  idlePosition: {fileID: 394562543}
+  maxDistance: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
